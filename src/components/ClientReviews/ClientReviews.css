@@ -1,0 +1,30 @@
+.tag-color-client {
+	color: #09b44d !important;
+	letter-spacing: 5px !important;
+}
+
+.tag-color-black {
+	letter-spacing: 3px !important;
+}
+.review-client {
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	margin: auto !important;
+}
+.image-div {
+	align-items: center !important;
+}
+.cleint-review-text {
+	margin-top: 12px;
+	text-align: justify;
+	letter-spacing: 2px;
+}
+.client-name {
+	margin-top: 5px;
+	color: #09b44d !important;
+	letter-spacing: 5px !important;
+}
+.client-des {
+	letter-spacing: 5px !important;
+}

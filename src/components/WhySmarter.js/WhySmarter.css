@@ -1,0 +1,50 @@
+.provided-offers-div {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 15px;
+}
+
+.tag-color {
+	color: #09b44d !important;
+	letter-spacing: 5px !important;
+}
+
+.info-text {
+	color: black !important;
+	font-size: medium;
+	letter-spacing: 2px;
+	margin-top: 3rem;
+	font-weight: 600;
+}
+.offer-provided-text {
+	letter-spacing: 2px;
+	font-size: 16px;
+	font-weight: 600;
+}
+.provided-offers-count {
+	color: #09b44d !important;
+	letter-spacing: 6px;
+}
+
+.offer-accepted-text {
+	letter-spacing: 2px;
+	font-size: 16px;
+	font-weight: 600;
+}
+.accepted-offers-count {
+	letter-spacing: 6px;
+}
+
+.player-wrapper {
+	position: relative;
+	padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
+	border-radius: 5px;
+}
+
+.react-player {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 20px;
+	overflow: hidden;
+}

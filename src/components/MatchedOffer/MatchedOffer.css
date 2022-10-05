@@ -1,0 +1,79 @@
+.main-card {
+	margin-bottom: 2rem;
+	border-radius: 20px !important;
+}
+.matched-offer-tag {
+	color: black !important;
+	letter-spacing: 5px;
+}
+.matched-offer-text {
+	letter-spacing: 2px;
+	color: gray !important;
+	font-size: large;
+}
+.matched-offer-first-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.comapny-payment-tag {
+	color: gray !important;
+	letter-spacing: 1px;
+	margin-bottom: 1rem;
+	margin-top: 1px;
+}
+.company-name {
+	color: #09b44d !important;
+	letter-spacing: 1px;
+	font-size: 13px;
+	font-weight: 600;
+	margin-bottom: 2px;
+}
+.payment-value {
+	font-weight: 600;
+	margin-top: 2rem;
+}
+.Reviews {
+	font-size: 12px;
+	color: rgb(112, 112, 112);
+	margin-bottom: 1px !important;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.star-count {
+	font-size: 11px;
+	color: blue;
+	margin-bottom: 0%;
+}
+
+.min-max-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.min-max-tag {
+	color: gray !important;
+	letter-spacing: 1px;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 0%;
+}
+
+.min-max-value {
+	color: black !important;
+	letter-spacing: 1px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.min-max-phone {
+	color: blue !important;
+	letter-spacing: 1px;
+	font-size: 12px;
+	font-weight: 600;
+	padding-top: 10px !important;
+}
+
+.next-button {
+	border-radius: 10px !important;
+	font-size: 12px !important;
+	width: 75%;
+}

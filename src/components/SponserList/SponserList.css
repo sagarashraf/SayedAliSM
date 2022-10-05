@@ -1,0 +1,10 @@
+.image-custom {
+	margin: auto;
+}
+
+.slick-slide > div {
+	display: grid;
+	place-items: center;
+	margin: auto;
+	padding: 0px;
+}
