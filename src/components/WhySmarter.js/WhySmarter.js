@@ -17,7 +17,7 @@ export const WhySmarter = (props) => {
 				<Col lg={6} md={12}>
 					<Card className='border-0'>
 						<Card.Body className='text-center mb-1'>
-							<h3 className='tag-color'>Smarter Payouts</h3>
+							<h2 className='tag-color'>Smarter Payouts</h2>
 							<p className='info-text'>
 								A Self Quoting Platform Designed Especially for structured
 								settlement lottery and annuity payments. When Settlement
@@ -56,7 +56,7 @@ export const WhySmarter = (props) => {
 						/>
 					</div>
 					<div className='text-center mt-3'>
-						<h5>Upfront Offer in 2 mins or less Guaranteed</h5>
+						<h6>Upfront Offer in 2 mins or less Guaranteed</h6>
 					</div>
 				</Col>
 			</Row>
