@@ -16,7 +16,7 @@ export const WhySmarter = (props) => {
 			<Row>
 				<Col lg={6} md={12}>
 					<Card className='border-0'>
-						<Card.Body className='text-center mb-2'>
+						<Card.Body className='text-center mb-1'>
 							<h3 className='tag-color'>Smarter Payouts</h3>
 							<p className='info-text'>
 								A Self Quoting Platform Designed Especially for structured

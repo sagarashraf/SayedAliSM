@@ -6,14 +6,14 @@
 
 .tag-color {
 	color: #09b44d !important;
-	letter-spacing: 5px !important;
+	letter-spacing: 2px !important;
 }
 
 .info-text {
 	color: black !important;
-	font-size: medium;
-	letter-spacing: 2px;
-	margin-top: 3rem;
+	font-size: large;
+	letter-spacing: 1px;
+	margin-top: 1rem;
 	font-weight: 600;
 }
 .offer-provided-text {
