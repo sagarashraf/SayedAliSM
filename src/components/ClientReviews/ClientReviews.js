@@ -98,10 +98,7 @@ export const ClientReviews = (props) => {
 												<Card.Text className='cleint-review-text'>
 													It was great working with Smarter Payouts very
 													experienced team I must It was great working with
-													Smarter Payouts very experienced team I must It was
-													great working with Smarter Payouts very experienced
-													team I must It was great working with Smarter Payouts
-													very experienced team I must
+													Smarter Payouts
 												</Card.Text>
 											</Card.Body>
 										</Card>
@@ -140,10 +137,7 @@ export const ClientReviews = (props) => {
 												<Card.Text className='cleint-review-text'>
 													It was great working with Smarter Payouts very
 													experienced team I must It was great working with
-													Smarter Payouts very experienced team I must It was
-													great working with Smarter Payouts very experienced
-													team I must It was great working with Smarter Payouts
-													very experienced team I must
+													Smarter Payouts
 												</Card.Text>
 											</Card.Body>
 										</Card>
@@ -182,10 +176,7 @@ export const ClientReviews = (props) => {
 												<Card.Text className='cleint-review-text'>
 													It was great working with Smarter Payouts very
 													experienced team I must It was great working with
-													Smarter Payouts very experienced team I must It was
-													great working with Smarter Payouts very experienced
-													team I must It was great working with Smarter Payouts
-													very experienced team I must
+													Smarter Payouts
 												</Card.Text>
 											</Card.Body>
 										</Card>
@@ -224,10 +215,7 @@ export const ClientReviews = (props) => {
 												<Card.Text className='cleint-review-text'>
 													It was great working with Smarter Payouts very
 													experienced team I must It was great working with
-													Smarter Payouts very experienced team I must It was
-													great working with Smarter Payouts very experienced
-													team I must It was great working with Smarter Payouts
-													very experienced team I must
+													Smarter Payouts
 												</Card.Text>
 											</Card.Body>
 										</Card>
@@ -266,10 +254,7 @@ export const ClientReviews = (props) => {
 												<Card.Text className='cleint-review-text'>
 													It was great working with Smarter Payouts very
 													experienced team I must It was great working with
-													Smarter Payouts very experienced team I must It was
-													great working with Smarter Payouts very experienced
-													team I must It was great working with Smarter Payouts
-													very experienced team I must
+													Smarter Payouts
 												</Card.Text>
 											</Card.Body>
 										</Card>
