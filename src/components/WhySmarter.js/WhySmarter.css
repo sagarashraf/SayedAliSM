@@ -11,10 +11,10 @@
 
 .info-text {
 	color: black !important;
-	font-size: large;
-	letter-spacing: 1px;
+
 	margin-top: 1rem;
 	font-weight: 600;
+	text-align: center;
 }
 .offer-provided-text {
 	letter-spacing: 2px;

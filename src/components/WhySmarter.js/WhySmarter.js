@@ -12,34 +12,17 @@ import video from "../../assets/media/Smarter-Payouts.mp4";
 
 export const WhySmarter = (props) => {
 	return (
-		<Container className='mt-5' fluid>
+		<Container className='mt-4' fluid>
 			<Row>
 				<Col lg={6} md={12}>
 					<Card className='border-0'>
 						<Card.Body className='text-center mb-1'>
-							<h2 className='tag-color'>Smarter Payouts</h2>
-							<p className='info-text'>
+							<h1 className='tag-color mt-lg-5 mt-xs-1'>Smarter Payouts</h1>
+							<p className='info-text mt-3'>
 								A Self Quoting Platform Designed Especially for structured
 								settlement lottery and annuity payments. When Settlement
 								companies compete, you WIN!{" "}
 							</p>
-							<hr />
-							<Card className=' border-0'>
-								<Card.Body className='text-center'>
-									<h3 className='tag-color mt-3'>Our Legend</h3>
-									<div className='provided-offers-div'>
-										<div className='w-50 text-center'>
-											<p className='offer-provided-text'>Offers Provided</p>
-											<h2 className='provided-offers-count'>1300+</h2>
-										</div>
-										<div className='w-50 text-center'>
-											<p className='offer-accepted-text'>Offers Accepted</p>
-											<h2 className='accepted-offers-count'>1200+</h2>
-										</div>
-										<div className='w-50 text-center'></div>
-									</div>
-								</Card.Body>
-							</Card>
 						</Card.Body>
 					</Card>
 				</Col>

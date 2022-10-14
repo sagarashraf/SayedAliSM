@@ -57,13 +57,6 @@ export const SponserList = (props) => {
 					<div>
 						<img
 							className='image-custom'
-							src={require("../../assets/img/NBC.png")}
-							alt='NBC'
-						/>
-					</div>
-					<div>
-						<img
-							className='image-custom'
 							src={require("../../assets/img/USA.png")}
 							alt='USA'
 						/>
@@ -75,27 +68,7 @@ export const SponserList = (props) => {
 							alt='FOX'
 						/>
 					</div>
-					<div>
-						<img
-							className='image-custom'
-							src={require("../../assets/img/NBC.png")}
-							alt='NBC'
-						/>
-					</div>
-					<div>
-						<img
-							className='image-custom'
-							src={require("../../assets/img/USA.png")}
-							alt='USA'
-						/>
-					</div>
-					<div>
-						<img
-							className='image-custom'
-							src={require("../../assets/img/NBC.png")}
-							alt='NBC'
-						/>
-					</div>
+
 					<div>
 						<img
 							className='image-custom'

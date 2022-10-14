@@ -7,12 +7,14 @@ import { MatchedOffer } from "./components/MatchedOffer/MatchedOffer";
 import { AboutUs } from "./components/AboutUs/AboutUs";
 import { ClientReviews } from "./components/ClientReviews/ClientReviews";
 import { GetInTouch } from "./components/GetInTouch/GetInTouch";
+import { ClientCount } from "./components/ClientCount/ClientCount";
 
 function App() {
 	return (
 		<Container fluid>
 			<SponserList />
 			<WhySmarter />
+			<ClientCount />
 			<MatchedOffer />
 			<AboutUs />
 			<ClientReviews />
