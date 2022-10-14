@@ -1,11 +1,11 @@
 .tag-color-client {
 	color: #09b44d !important;
-	letter-spacing: 5px !important;
+	letter-spacing: 1px !important;
 }
 
-.tag-color-black {
+/* .tag-color-black {
 	letter-spacing: 3px !important;
-}
+} */
 .review-client {
 	border-radius: 50%;
 	height: 150px;
