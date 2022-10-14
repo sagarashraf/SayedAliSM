@@ -56,38 +56,48 @@ export const SponserList = (props) => {
 				<Slider {...settings}>
 					<div>
 						<img
-							className='image-custom'
+							className='image-custom '
 							src={require("../../assets/img/USA.png")}
 							alt='USA'
+							width={90}
+							height={60}
 						/>
 					</div>
 					<div>
 						<img
-							className='image-custom'
+							className='image-custom '
 							src={require("../../assets/img/FOX.png")}
 							alt='FOX'
+							width={90}
+							height={60}
 						/>
 					</div>
 
 					<div>
 						<img
-							className='image-custom'
+							className='image-custom '
 							src={require("../../assets/img/USA.png")}
 							alt='USA'
+							width={90}
+							height={60}
 						/>
 					</div>
 					<div>
 						<img
-							className='image-custom'
+							className='image-custom '
 							src={require("../../assets/img/FOX.png")}
 							alt='FOX'
+							width={90}
+							height={60}
 						/>
 					</div>
 					<div>
 						<img
-							className='image-custom'
+							className='image-custom '
 							src={require("../../assets/img/FOX.png")}
 							alt='FOX'
+							width={90}
+							height={60}
 						/>
 					</div>
 				</Slider>

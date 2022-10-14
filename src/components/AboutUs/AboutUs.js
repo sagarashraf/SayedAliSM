@@ -23,7 +23,7 @@ export const AboutUs = (props) => {
 				</div>
 			</Row>
 			<Row>
-				<Col lg={6} md={12}>
+				<Col lg={7} md={12}>
 					<div className='card-color player-wrapper '>
 						<ReactPlayer
 							className='react-player'
@@ -42,43 +42,43 @@ export const AboutUs = (props) => {
 						</h6>
 					</Container>
 				</Col>
-				<Col lg={6} md={12}>
+				<Col lg={5} md={12}>
 					<div className='we-promise-tag'>
 						<h3 className='we-promise-text'>We Promise!</h3>
 					</div>
 					<Row className='mt-5'>
 						<Col md={6} sm={12} className='mb-2'>
-							<Card>
+							<Card className='shadow border-0'>
 								<Card.Body>
-									<Card.Body className='text-center'>
+									<div className='text-center'>
 										<img src={require("../../assets/img/transparency.png")} />
-										<h5 className='mt-3'>100% Transparency</h5>
+										<h6 className='mt-3'>100% Transparency</h6>
 										<p className='general-text-spacing'>
 											Receive an approx. payout range with no hidden cost.
 										</p>
-									</Card.Body>
+									</div>
 								</Card.Body>
 							</Card>
 						</Col>
 						<Col md={6} sm={12} className='mb-2'>
-							<Card>
+							<Card className='shadow border-0'>
 								<Card.Body className='px-0'>
-									<Card.Body className='text-center'>
+									<div className='text-center'>
 										<img
 											width={30}
 											height={30}
 											src={require("../../assets/img/obligation.png")}
 										/>
-										<h5 className='mt-3'>No Obligation, No Pressure</h5>
+										<h6 className='mt-3'>No Obligation, No Pressure</h6>
 										<p className='general-text-spacing'>
 											Make the decision according to your needs and timeline.
 										</p>
-									</Card.Body>
+									</div>
 								</Card.Body>
 							</Card>
 						</Col>
-						<Col className='mt-3'>
-							<Card>
+						<Col className='mt-lg-5 mt-xs-1'>
+							<Card className='shadow border-0'>
 								<Card.Body className='text-center general-text-spacing'>
 									Zero sales pressure. Make the decision according to your needs
 									and timeline. Zero sales pressure.
