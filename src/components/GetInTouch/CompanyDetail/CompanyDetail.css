@@ -1,0 +1,15 @@
+.accordion-main-header {
+	justify-content: space-between !important;
+	display: flex !important;
+}
+.companyDetail-icon {
+	font-size: 20px;
+}
+.companydetail-text-style {
+	color: rgb(104, 103, 103);
+	font-weight: 500;
+}
+.way-to-us {
+	color: rgb(104, 103, 103);
+	font-weight: 500;
+}

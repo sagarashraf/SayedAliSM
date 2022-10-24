@@ -1,0 +1,46 @@
+.getInTouch-user {
+	background-color: transparent !important;
+	background: transparent !important;
+	border-right: none !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+}
+.getInTouch-userName {
+	border-left: none !important;
+	letter-spacing: 2px;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+.label-weight-getIn-Touch {
+	font-weight: 600;
+	padding-left: 4px;
+}
+
+.form-control:focus {
+	color: #212529;
+	background-color: #fff;
+	border-color: #09b44d !important;
+	outline: 0;
+	box-shadow: 0 0 0 0.25rem rgba(112, 165, 245, 0.25) !important;
+}
+.getIn-text-main {
+	color: #09b44d !important;
+	font-weight: 800;
+}
+.getIn-touch-company-detail {
+	color: white !important;
+	padding-left: 30px;
+	padding-right: 15px !important;
+	border-radius: 20px !important;
+	font-weight: 600 !important;
+}
+
+.send-message-button {
+	background-color: #09b44d !important;
+	letter-spacing: 2px;
+	border: #09b44d !important;
+	font-size: 18px !important;
+	font-weight: 700;
+	border-radius: 15px !important;
+	padding: 10px 20px !important;
+}
