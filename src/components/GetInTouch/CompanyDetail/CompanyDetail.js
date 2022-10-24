@@ -21,7 +21,7 @@ import "./CompanyDetail.css";
 
 export const CompanyDetail = (props) => {
 	return (
-		<Container>
+		<Container fluid>
 			<Container className=' '>
 				<div className='mb-4 text-center'>
 					<img
