@@ -11,7 +11,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { ListGroup, Container, Row, Badge } from "react-bootstrap";
+import { ListGroup, Container, Row, Badge, Col } from "react-bootstrap";
 import "./CompanyDetail.css";
 
 /**
@@ -22,8 +22,8 @@ import "./CompanyDetail.css";
 export const CompanyDetail = (props) => {
 	return (
 		<Container fluid>
-			<Container className=' '>
-				<div className='mb-4 text-center'>
+			<Container fluid>
+				<div className='mb-3 text-center'>
 					<img
 						width={60}
 						height={120}
@@ -34,83 +34,98 @@ export const CompanyDetail = (props) => {
 				</div>
 				<Row>
 					<ListGroup variant='flush'>
-						<ListGroup.Item className='d-flex justify-content-between align-items-start'>
+						<ListGroup.Item>
 							{" "}
-							<div className='ms-2 me-auto'>
-								<div className='companydetail-text-style'>
-									{" "}
-									<FontAwesomeIcon
-										className='companyDetail-icon'
-										icon={faPhone}
-									/>{" "}
-									Dial Up now
-								</div>
-							</div>
-							<div className='companydetail-text-style'>+932-43534-244</div>
+							<Row className='text-center'>
+								<Col lg={12}>
+									<div className='companydetail-text-style'>
+										{" "}
+										<FontAwesomeIcon
+											className='companyDetail-icon'
+											icon={faPhone}
+										/>{" "}
+										Dial Up now
+									</div>
+								</Col>
+								<Col lg={12}>
+									<div className='companydetail-text-style'>+932-43534-244</div>
+								</Col>
+							</Row>
+						</ListGroup.Item>
+						<ListGroup.Item>
+							<Row className='text-center'>
+								<Col lg={12}>
+									<div className='companydetail-text-style'>
+										{" "}
+										<FontAwesomeIcon
+											className='companyDetail-icon'
+											icon={faEnvelope}
+										/>{" "}
+										Email
+									</div>
+								</Col>
+								<Col lg={12}>
+									<div className='companydetail-text-style'>
+										Abc@smarterpayouts.com
+									</div>
+								</Col>
+							</Row>
+						</ListGroup.Item>
+						<ListGroup.Item>
+							<Row className='text-center'>
+								<Col lg={12}>
+									<div className='companydetail-text-style'>
+										{" "}
+										<FontAwesomeIcon
+											style={{ marginRight: "10px" }}
+											className='companyDetail-icon'
+											icon={faMapMarker}
+										/>{" "}
+										Visit Us
+									</div>
+								</Col>
+								<Col lg={12}>
+									<div className='companydetail-text-style px-2'>
+										{"     "}3652 E Broward, Blvd , Fort Lauderdale , Florida ,
+										33063
+									</div>
+								</Col>
+							</Row>
+						</ListGroup.Item>
+						<ListGroup.Item>
+							<Row className='text-center'>
+								<Col lg={6}>
+									<div className='companydetail-text-style'>
+										{" "}
+										<FontAwesomeIcon
+											className='companyDetail-icon'
+											icon={faShieldHalved}
+										/>{" "}
+										Privacy Policy
+										<div className='companydetail-text-style'>
+											<u>Visit here</u>
+										</div>
+									</div>
+								</Col>
+								<Col lg={6}>
+									<div className='companydetail-text-style'>
+										{" "}
+										<FontAwesomeIcon
+											className='companyDetail-icon'
+											icon={faFilePen}
+										/>{" "}
+										Terms and Conditions
+										<div className='companydetail-text-style'>
+											<u>Visit here</u>
+										</div>
+									</div>
+								</Col>
+							</Row>
+							<div className='ms-2 me-auto'></div>
 						</ListGroup.Item>
 						<ListGroup.Item className='d-flex justify-content-between align-items-start'>
 							{" "}
-							<div className='ms-2 me-auto'>
-								<div className='companydetail-text-style'>
-									{" "}
-									<FontAwesomeIcon
-										className='companyDetail-icon'
-										icon={faEnvelope}
-									/>{" "}
-									Email
-								</div>
-							</div>
-							<div className='companydetail-text-style'>
-								Abc@smarterpayouts.com
-							</div>
-						</ListGroup.Item>
-						<ListGroup.Item className='d-flex justify-content-between align-items-start'>
-							{" "}
-							<div className='ms-2 me-auto'>
-								<div className='companydetail-text-style'>
-									{" "}
-									<FontAwesomeIcon
-										style={{ marginRight: "10px" }}
-										className='companyDetail-icon'
-										icon={faMapMarker}
-									/>{" "}
-								</div>
-							</div>
-							<div className='companydetail-text-style'>
-								3652 E Broward, Blvd , Fort Lauderdale , Florida , 33063
-							</div>
-						</ListGroup.Item>
-						<ListGroup.Item className='d-flex justify-content-between align-items-start'>
-							{" "}
-							<div className='ms-2 me-auto'>
-								<div className='companydetail-text-style'>
-									{" "}
-									<FontAwesomeIcon
-										className='companyDetail-icon'
-										icon={faShieldHalved}
-									/>{" "}
-									Privacy Policy
-								</div>
-							</div>
-							<div className='companydetail-text-style'>
-								<u>Visit here</u>
-							</div>
-						</ListGroup.Item>
-						<ListGroup.Item className='d-flex justify-content-between align-items-start'>
-							{" "}
-							<div className='ms-2 me-auto'>
-								<div className='companydetail-text-style'>
-									{" "}
-									<FontAwesomeIcon
-										className='companyDetail-icon'
-										icon={faFilePen}
-									/>{" "}
-									Terms and Conditions
-								</div>
-							</div>
-							<div className='companydetail-text-style'>
-								<u>Visit here</u>
-							</div>
+							<div className='ms-2 me-auto'></div>
 						</ListGroup.Item>
 					</ListGroup>
 				</Row>
