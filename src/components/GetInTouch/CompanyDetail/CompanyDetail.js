@@ -66,7 +66,7 @@ export const CompanyDetail = (props) => {
 								</Col>
 								<Col lg={12}>
 									<div className='companydetail-text-style'>
-										Abc@smarterpayouts.com
+										ArslanABC@smarterpayouts.com
 									</div>
 								</Col>
 							</Row>
@@ -86,8 +86,8 @@ export const CompanyDetail = (props) => {
 								</Col>
 								<Col lg={12}>
 									<div className='companydetail-text-style px-2'>
-										{"     "}3652 E Broward, Blvd , Fort Lauderdale , Florida ,
-										33063
+										{"     "}76500E kotlakhpat, Model Town , S-block Lahore ,
+										Pakistan
 									</div>
 								</Col>
 							</Row>
