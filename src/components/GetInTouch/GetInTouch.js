@@ -197,7 +197,7 @@ export const GetInTouch = (props) => {
 									</Form.Group>
 								</Row>
 
-								<Row className='text-center mt-5'>
+								<Row className='text-center mt-3'>
 									<Col lg={12}>
 										<Button type='submit' className='send-message-button'>
 											{" "}
