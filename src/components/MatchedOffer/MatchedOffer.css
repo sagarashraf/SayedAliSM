@@ -50,7 +50,6 @@
 	flex-wrap: wrap;
 }
 .min-max-tag {
-	color: gray !important;
 	letter-spacing: 1px;
 	font-size: 16px;
 	font-weight: 600;
@@ -60,8 +59,9 @@
 .min-max-value {
 	color: black !important;
 	letter-spacing: 1px;
-	font-size: 18px;
-	font-weight: 700;
+	font-size: 16px;
+	font-weight: 600;
+	color: gray !important;
 }
 
 .min-max-phone {

@@ -61,7 +61,7 @@ export const CompanyDetail = (props) => {
 											className='companyDetail-icon'
 											icon={faEnvelope}
 										/>{" "}
-										ArslanABC@smarterpayouts.com
+										ABC@smpayouts.com
 									</div>
 								</Col>
 								{/* <Col lg={12}>
@@ -77,7 +77,7 @@ export const CompanyDetail = (props) => {
 									<div className='companydetail-text-style'>
 										{" "}
 										<FontAwesomeIcon
-											style={{ marginRight: "10px" }}
+											style={{ marginRight: "6px" }}
 											className='companyDetail-icon'
 											icon={faMapMarker}
 										/>{" "}
