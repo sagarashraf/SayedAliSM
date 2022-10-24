@@ -75,7 +75,7 @@ export const GetInTouch = (props) => {
 										</Form.Label>
 										<InputGroup hasValidation>
 											<InputGroup.Text
-												className='getInTouch-user  shadow'
+												className='getInTouch-user  '
 												id='inputGroupPrepend'>
 												<FontAwesomeIcon
 													icon={faUser}
@@ -91,7 +91,7 @@ export const GetInTouch = (props) => {
 												value={values.Name}
 												onChange={handleChange}
 												isInvalid={!!errors.Name}
-												className='getInTouch-userName shadow'
+												className='getInTouch-userName '
 											/>
 											<Form.Control.Feedback type='invalid'>
 												{errors.Name}
@@ -107,7 +107,7 @@ export const GetInTouch = (props) => {
 										</Form.Label>
 										<InputGroup>
 											<InputGroup.Text
-												className='getInTouch-user  shadow'
+												className='getInTouch-user  '
 												id='inputGroupPrepend'>
 												<FontAwesomeIcon
 													icon={faPhone}
@@ -123,7 +123,7 @@ export const GetInTouch = (props) => {
 												value={values.Phone}
 												onChange={handleChange}
 												isInvalid={!!errors.Phone}
-												className='getInTouch-userName shadow'
+												className='getInTouch-userName '
 											/>
 										</InputGroup>
 									</Form.Group>
@@ -139,7 +139,7 @@ export const GetInTouch = (props) => {
 										</Form.Label>
 										<InputGroup hasValidation>
 											<InputGroup.Text
-												className='getInTouch-user  shadow'
+												className='getInTouch-user  '
 												id='inputGroupPrepend'>
 												<FontAwesomeIcon
 													icon={faEnvelope}
@@ -156,7 +156,7 @@ export const GetInTouch = (props) => {
 												onChange={handleChange}
 												isInvalid={touched.Email && !!errors.Email}
 												onBlur={handleBlur}
-												className='getInTouch-userName shadow'
+												className='getInTouch-userName '
 											/>
 											<Form.Control.Feedback type='invalid'>
 												{errors.Email}
@@ -172,7 +172,7 @@ export const GetInTouch = (props) => {
 										</Form.Label>
 										<InputGroup hasValidation>
 											<InputGroup.Text
-												className='getInTouch-user  shadow'
+												className='getInTouch-user  '
 												id='inputGroupPrepend'>
 												<FontAwesomeIcon
 													icon={faComment}
@@ -188,7 +188,7 @@ export const GetInTouch = (props) => {
 												onChange={handleChange}
 												isInvalid={touched.Text && !!errors.Text}
 												onBlur={handleBlur}
-												className='getInTouch-userName shadow'
+												className='getInTouch-userName '
 											/>
 											<Form.Control.Feedback type='invalid'>
 												{errors.Text}

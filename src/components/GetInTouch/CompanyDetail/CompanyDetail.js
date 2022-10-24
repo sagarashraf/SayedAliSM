@@ -34,9 +34,9 @@ export const CompanyDetail = (props) => {
 				</div>
 				<Row>
 					<ListGroup variant='flush'>
-						<ListGroup.Item>
+						<ListGroup.Item className='mb-3'>
 							{" "}
-							<Row className='text-center'>
+							<Row>
 								<Col lg={12}>
 									<div className='companydetail-text-style'>
 										{" "}
@@ -44,16 +44,16 @@ export const CompanyDetail = (props) => {
 											className='companyDetail-icon'
 											icon={faPhone}
 										/>{" "}
-										Dial Up now
+										+932-43534-244
 									</div>
 								</Col>
-								<Col lg={12}>
+								{/* <Col lg={12}>
 									<div className='companydetail-text-style'>+932-43534-244</div>
-								</Col>
+								</Col> */}
 							</Row>
 						</ListGroup.Item>
-						<ListGroup.Item>
-							<Row className='text-center'>
+						<ListGroup.Item className='mb-3'>
+							<Row>
 								<Col lg={12}>
 									<div className='companydetail-text-style'>
 										{" "}
@@ -61,18 +61,18 @@ export const CompanyDetail = (props) => {
 											className='companyDetail-icon'
 											icon={faEnvelope}
 										/>{" "}
-										Email
-									</div>
-								</Col>
-								<Col lg={12}>
-									<div className='companydetail-text-style'>
 										ArslanABC@smarterpayouts.com
 									</div>
 								</Col>
+								{/* <Col lg={12}>
+									<div className='companydetail-text-style'>
+										ArslanABC@smarterpayouts.com
+									</div>
+								</Col> */}
 							</Row>
 						</ListGroup.Item>
-						<ListGroup.Item>
-							<Row className='text-center'>
+						<ListGroup.Item className='mb-3'>
+							<Row>
 								<Col lg={12}>
 									<div className='companydetail-text-style'>
 										{" "}
@@ -81,20 +81,20 @@ export const CompanyDetail = (props) => {
 											className='companyDetail-icon'
 											icon={faMapMarker}
 										/>{" "}
-										Visit Us
+										76500E kotlakhpat, Model Town , S-block Lahore , Pakistan
 									</div>
 								</Col>
-								<Col lg={12}>
+								{/* <Col lg={12}>
 									<div className='companydetail-text-style px-2'>
 										{"     "}76500E kotlakhpat, Model Town , S-block Lahore ,
 										Pakistan
 									</div>
-								</Col>
+								</Col> */}
 							</Row>
 						</ListGroup.Item>
-						<ListGroup.Item>
-							<Row className='text-center'>
-								<Col lg={6}>
+						<ListGroup.Item className='mb-3'>
+							<Row>
+								<Col lg={12}>
 									<div className='companydetail-text-style'>
 										{" "}
 										<FontAwesomeIcon
@@ -102,30 +102,28 @@ export const CompanyDetail = (props) => {
 											icon={faShieldHalved}
 										/>{" "}
 										Privacy Policy
-										<div className='companydetail-text-style'>
+										{/* <div className='companydetail-text-style'>
 											<u>Visit here</u>
-										</div>
-									</div>
-								</Col>
-								<Col lg={6}>
-									<div className='companydetail-text-style'>
-										{" "}
-										<FontAwesomeIcon
-											className='companyDetail-icon'
-											icon={faFilePen}
-										/>{" "}
-										Terms and Conditions
-										<div className='companydetail-text-style'>
-											<u>Visit here</u>
-										</div>
+										</div> */}
 									</div>
 								</Col>
 							</Row>
 							<div className='ms-2 me-auto'></div>
 						</ListGroup.Item>
-						<ListGroup.Item className='d-flex justify-content-between align-items-start'>
-							{" "}
-							<div className='ms-2 me-auto'></div>
+						<ListGroup.Item className='mb-3'>
+							<Col lg={12}>
+								<div className='companydetail-text-style'>
+									{" "}
+									<FontAwesomeIcon
+										className='companyDetail-icon'
+										icon={faFilePen}
+									/>{" "}
+									Terms and Conditions
+									{/* <div className='companydetail-text-style'>
+											<u>Visit here</u>
+										</div> */}
+								</div>
+							</Col>
 						</ListGroup.Item>
 					</ListGroup>
 				</Row>

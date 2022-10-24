@@ -97,12 +97,14 @@ export const MatchedOffer = (props) => {
 													<div className='min-max-row'>
 														<div className='w-50 text-center'>
 															<p className='min-max-tag'>Min Offer</p>
-															<p className='min-max-value'>$75,525.55</p>
-															<p className='min-max-phone'>(866)579-0592</p>
+															<p className='min-max-value mb-2'>$75,525.55</p>
+															<p className='min-max-phone mb-1'>
+																(866)579-0592
+															</p>
 														</div>
 														<div className='w-50 text-center'>
 															<p className='min-max-tag'>Max Offer</p>
-															<p className='min-max-value'>$95,525.55</p>
+															<p className='min-max-value mb-2'>$95,525.55</p>
 															<Button
 																className='next-button '
 																variant='warning'>
