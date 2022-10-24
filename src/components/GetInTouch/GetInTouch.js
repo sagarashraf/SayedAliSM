@@ -37,9 +37,9 @@ export const GetInTouch = (props) => {
 							Fill up the form and our Team will get back to you within 24
 							hours.{" "}
 						</p>
-						<Button variant='warning' className='getIn-touch-company-detail'>
+						{/* <Button variant='warning' className='getIn-touch-company-detail'>
 							See Company Details
-						</Button>
+						</Button> */}
 					</div>
 				</Col>
 			</Row>
