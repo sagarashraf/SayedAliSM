@@ -78,9 +78,9 @@ export const ClientReviews = (props) => {
 															"https://media.istockphoto.com/photos/home-office-picture-id1184331595?k=20&m=1184331595&s=612x612&w=0&h=j22ZdQuQrx7opqVncLtEl1Luf2-o20mAEFvgHiGgZew="
 														}></img>
 													<h5 className='client-name'>Luke Harper</h5>
-													<h5 className='client-des  invisible'>
+													{/* <h5 className='client-des  invisible'>
 														CEO, RHYTHEM
-													</h5>
+													</h5> */}
 												</div>
 											</Card.Body>
 										</Card>
@@ -119,7 +119,7 @@ export const ClientReviews = (props) => {
 															"https://media.istockphoto.com/photos/home-office-picture-id1184331595?k=20&m=1184331595&s=612x612&w=0&h=j22ZdQuQrx7opqVncLtEl1Luf2-o20mAEFvgHiGgZew="
 														}></img>
 													<h5 className='client-name'>Luke Harper</h5>
-													<h5 className='client-des invisible'>CEO, RHYTHEM</h5>
+													{/* <h5 className='client-des invisible'>CEO, RHYTHEM</h5> */}
 												</div>
 											</Card.Body>
 										</Card>
@@ -158,7 +158,7 @@ export const ClientReviews = (props) => {
 															"https://media.istockphoto.com/photos/home-office-picture-id1184331595?k=20&m=1184331595&s=612x612&w=0&h=j22ZdQuQrx7opqVncLtEl1Luf2-o20mAEFvgHiGgZew="
 														}></img>
 													<h5 className='client-name'>Luke Harper</h5>
-													<h5 className='client-des invisible'>CEO, RHYTHEM</h5>
+													{/* <h5 className='client-des invisible'>CEO, RHYTHEM</h5> */}
 												</div>
 											</Card.Body>
 										</Card>
@@ -197,7 +197,7 @@ export const ClientReviews = (props) => {
 															"https://media.istockphoto.com/photos/home-office-picture-id1184331595?k=20&m=1184331595&s=612x612&w=0&h=j22ZdQuQrx7opqVncLtEl1Luf2-o20mAEFvgHiGgZew="
 														}></img>
 													<h5 className='client-name'>Luke Harper</h5>
-													<h5 className='client-des invisible'>CEO, RHYTHEM</h5>
+													{/* <h5 className='client-des invisible'>CEO, RHYTHEM</h5> */}
 												</div>
 											</Card.Body>
 										</Card>
@@ -236,7 +236,7 @@ export const ClientReviews = (props) => {
 															"https://media.istockphoto.com/photos/home-office-picture-id1184331595?k=20&m=1184331595&s=612x612&w=0&h=j22ZdQuQrx7opqVncLtEl1Luf2-o20mAEFvgHiGgZew="
 														}></img>
 													<h5 className='client-name'>Luke Harper</h5>
-													<h5 className='client-des invisible'>CEO, RHYTHEM</h5>
+													{/* <h5 className='client-des invisible'>CEO, RHYTHEM</h5> */}
 												</div>
 											</Card.Body>
 										</Card>

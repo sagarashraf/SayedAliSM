@@ -52,15 +52,15 @@ export const SponserList = (props) => {
 	return (
 		<Container>
 			<div className='text-center'>
-				<h4>"As Seen On"</h4>
+				<h5>"As Seen On"</h5>
 				<Slider {...settings}>
 					<div>
 						<img
 							className='image-custom '
 							src={require("../../assets/img/USA.png")}
 							alt='USA'
-							width={90}
-							height={60}
+							width={70}
+							height={40}
 						/>
 					</div>
 					<div>
@@ -68,18 +68,18 @@ export const SponserList = (props) => {
 							className='image-custom '
 							src={require("../../assets/img/FOX.png")}
 							alt='FOX'
-							width={90}
-							height={60}
+							width={70}
+							height={40}
 						/>
 					</div>
 
 					<div>
 						<img
 							className='image-custom '
-							src={require("../../assets/img/USA.png")}
-							alt='USA'
-							width={90}
-							height={60}
+							src={require("../../assets/img/FOX.png")}
+							alt='FOX'
+							width={70}
+							height={40}
 						/>
 					</div>
 					<div>
@@ -87,17 +87,8 @@ export const SponserList = (props) => {
 							className='image-custom '
 							src={require("../../assets/img/FOX.png")}
 							alt='FOX'
-							width={90}
-							height={60}
-						/>
-					</div>
-					<div>
-						<img
-							className='image-custom '
-							src={require("../../assets/img/FOX.png")}
-							alt='FOX'
-							width={90}
-							height={60}
+							width={70}
+							height={40}
 						/>
 					</div>
 				</Slider>

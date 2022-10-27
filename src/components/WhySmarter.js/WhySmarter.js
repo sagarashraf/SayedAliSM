@@ -19,9 +19,8 @@ export const WhySmarter = (props) => {
 						<Card.Body className='text-center mb-1'>
 							<h1 className='tag-color mt-lg-5 mt-xs-1'>Smarter Payouts</h1>
 							<p className='info-text mt-3'>
-								A Self Quoting Platform Designed Especially for structured
-								settlement lottery and annuity payments. When Settlement
-								companies compete, you WIN!{" "}
+								Our self quoting platform that provides you with an early payout
+								offer in exchange for your future structured settlement payments{" "}
 							</p>
 						</Card.Body>
 					</Card>

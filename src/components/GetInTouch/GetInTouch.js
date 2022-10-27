@@ -28,7 +28,7 @@ const schema = yup.object().shape({
 
 export const GetInTouch = (props) => {
 	return (
-		<Container fluid className='mt-5 '>
+		<Container fluid className='mt-5 mb-3 '>
 			<Row>
 				<Col sm={12}>
 					<div className='text-center'>
