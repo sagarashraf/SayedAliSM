@@ -4,6 +4,7 @@
 }
 .companyDetail-icon {
 	font-size: 20px;
+	color: rgb(153, 153, 153) !important;
 }
 .companydetail-text-style {
 	color: rgb(104, 103, 103);
@@ -12,4 +13,16 @@
 .way-to-us {
 	color: rgb(104, 103, 103);
 	font-weight: 500;
+}
+.text-tag-detail {
+	color: #09b44d !important;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	font-size: 16px;
+}
+
+.text-tag-detail-text {
+	font-weight: 600;
+	color: rgb(136, 136, 136) !important;
+	font-size: 15px;
 }

@@ -53,7 +53,6 @@ export const MatchedOffer = (props) => {
 				<Col sm={12}>
 					<div className='text-center'>
 						<h2 className='matched-offer-tag'>Matched offers</h2>
-						<p className='matched-offer-text'>Compare offers in minutes</p>
 					</div>
 					<Slider {...settings}>
 						<div>

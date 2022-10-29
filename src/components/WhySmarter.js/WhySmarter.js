@@ -13,6 +13,7 @@ import video from "../../assets/media/Smarter-Payouts.mp4";
 export const WhySmarter = (props) => {
 	return (
 		<Container className='mt-4' fluid>
+			<a id='action1'></a>
 			<Row>
 				<Col lg={6} md={12}>
 					<Card className='border-0'>
