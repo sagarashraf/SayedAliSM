@@ -20,7 +20,7 @@ export const OverView = (props) => {
 		<Container>
 			<Row className='mb-2'>
 				<Col>
-					<GrBarChart style={{ fontSize: "24px" }} />
+					<GrBarChart style={{ fontSize: "23px" }} />
 					<div className='fw-bold h5'>Overview</div>
 				</Col>
 			</Row>
@@ -104,7 +104,6 @@ export const OverView = (props) => {
 							<h6>Net Amount</h6>
 						</Card.Header>
 						<Card.Body className='py-1 px-1 pt-5'>
-							{" "}
 							<PieChartConfig />
 						</Card.Body>
 					</Card>
