@@ -1,0 +1,43 @@
+.claims-card-count {
+	background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 109%) !important;
+	color: white;
+	text-align: center;
+	border: 2px solid white !important;
+	padding-top: 5px;
+	letter-spacing: 0.5px;
+	border-radius: 10px !important;
+	box-shadow: 2px 2px;
+}
+
+.claims-card-amount {
+	background: linear-gradient(to bottom, #0066ff 0%, #00ffff 109%) !important;
+	color: white;
+	text-align: center;
+	border: 2px solid white !important;
+	padding-top: 5px;
+	letter-spacing: 0.5px;
+	border-radius: 10px !important;
+	box-shadow: 2px 2px;
+}
+
+.claims-card-withhold {
+	background: linear-gradient(to bottom, #dede09 0%, #00cc99 109%) !important;
+	color: white;
+	text-align: center;
+	border: 2px solid white !important;
+	padding-top: 5px;
+	letter-spacing: 0.5px;
+	border-radius: 10px !important;
+	box-shadow: 2px 2px;
+}
+
+.claims-card-netAmount {
+	background: linear-gradient(to bottom, #333399 0%, #cc00cc 109%) !important;
+	color: white;
+	text-align: center;
+	border: 2px solid white !important;
+	padding-top: 5px;
+	letter-spacing: 0.5px;
+	border-radius: 10px !important;
+	box-shadow: 2px 2px;
+}
