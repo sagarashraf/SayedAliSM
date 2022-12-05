@@ -10,7 +10,7 @@ function App() {
 			{/* <NavBar /> */}
 
 			<Container fluid>
-				<Drawer />
+				{/* <Drawer /> */}
 				<Routes>
 					<Route path='/' element={<OverView />} />
 				</Routes>

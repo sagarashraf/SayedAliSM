@@ -1,0 +1,10 @@
+.claims-card-withhold {
+	background: linear-gradient(to bottom, #dede09 0%, #00cc99 109%) !important;
+	color: white;
+	text-align: center;
+	border: 2px solid white !important;
+	padding-top: 5px;
+	letter-spacing: 0.5px;
+	border-radius: 10px !important;
+	box-shadow: 2px 2px;
+}

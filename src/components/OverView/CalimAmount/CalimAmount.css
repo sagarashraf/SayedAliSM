@@ -1,0 +1,10 @@
+.claims-card-amount {
+	background: linear-gradient(to bottom, #0066ff 0%, #00ffff 109%) !important;
+	color: white;
+	text-align: center;
+	border: 2px solid white !important;
+	padding-top: 5px;
+	letter-spacing: 0.5px;
+	border-radius: 10px !important;
+	box-shadow: 2px 2px;
+}

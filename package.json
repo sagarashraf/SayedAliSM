@@ -17,6 +17,7 @@
 		"react-bootstrap": "^2.5.0",
 		"react-chartjs-2": "^5.0.1",
 		"react-dom": "^18.2.0",
+		"react-google-charts": "^4.0.0",
 		"react-icons": "^4.7.1",
 		"react-minimal-pie-chart": "^8.4.0",
 		"react-pro-sidebar": "^1.0.0-alpha.9",

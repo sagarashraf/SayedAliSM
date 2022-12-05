@@ -1,0 +1,10 @@
+.claims-card-netAmount {
+	background: linear-gradient(to bottom, #333399 0%, #cc00cc 109%) !important;
+	color: white;
+	text-align: center;
+	border: 2px solid white !important;
+	padding-top: 5px;
+	letter-spacing: 0.5px;
+	border-radius: 10px !important;
+	box-shadow: 2px 2px;
+}
